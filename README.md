@@ -6,14 +6,7 @@
 
 --- 
 
-This package contains the source code for a plug-in for Qiime2 to be able to interact and be used with molecular 
-dynamics simulation software such as Amber, packmol, tleap, and etc. It also will contain various tools 
-for the analyses of these simulations such as looking at the Total Enery Levels of a reaction and examining
-a structures density overmicroscopic time increments. Currently the main tool is a parser which can transform 
-a text based .out file produced by amber simulations, and parse it into a pandas dataframe to be used however 
-the researcher might need. This is intended purely to give a more useful description and format for the data 
-to be analyzed computationally. Without this tool it is difficult to do heavy analyses on these files as they 
-are only human readable and not useable easily as values are not in a table format.
+This repo contains source code for a data parser for a typical .out file created from amber molecular dynamic simulations. This allows the user to examine their data inside of a datastructure which gives them more power to do an analysis.
 
 ---
 
@@ -21,11 +14,7 @@ are only human readable and not useable easily as values are not in a table form
 
 ---
 
-This package is a WIP but eventually will be deployed either alongside the base qiime2 framework or as a 
-standard Qiime2 plug-in which can be incorporated through conda or pip/using git. Currently the best way to
-utilize this package is by importing the chemparser.py file into a jupyter or ipython environment so that
-its function's and pipelines can be utilized right away. In the future this will change to a full form qiime2
-plugin which can be used like any other qiime2 plugin; reference qiime2.org to learn more about this software tool.
+Simply clone this repository and follow along with the jupyter notebook to see how this package works
 
 ---
 
@@ -61,4 +50,4 @@ to contribute to the project or build your own research related tools.
 ### Citing q2-chemistry 
 
 ---
-If you utilize q2-chemistry for any published research please include the following citation:
+If you utilize this script for any published research please include the following citation:
