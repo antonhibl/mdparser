@@ -115,7 +115,7 @@ def transform_parse(results_section):
     
     # Fixing last two rows showing Averages and Fluctuations, and removing the extra row with NaN values
     fdf = fdf[:-2]
-    #fdf = fdf.drop(columns=['SNSTEP'])
+    fdf = fdf.drop(columns=['SNSTEP'])
 
     # Returning the final dataframe
     return fdf
